@@ -1,0 +1,17 @@
+- Get numerical entities columns(name, TR, TL)
+- Get all numerical entities from a property columns(name, TR, TL) and append to (num_entities) list
+- for each value in num_entities:
+    comparison = []
+
+    for each name in numerical entities columns:
+        if value.TL.x >= name.TL.X:
+            substract_value = value.TL.x - name.TL.X
+        else:
+            substract_value = name.TL.X - value.TL.x
+        compare_obj = Comparison_Instance(
+            column_value = value.text
+            column_name = name.text
+            substract_value:int
+        )
+        comparison.append(compare_obj)
+    #THEN IS JUST A MATTER OF COMPARING THE comparison LIST

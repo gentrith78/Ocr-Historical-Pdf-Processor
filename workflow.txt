@@ -1,0 +1,13 @@
+- For each page:
+    - Scan with ocr
+    - get all entities
+    - save as dataclass
+    - save to excel
+C:\Program Files\Tesseract-OCR
+C:\Program Files\gs\gs10.02.0
+i am now writning for a keyboa
+i am now writing to test my keyboard if it is working sucessfully bnow im gonna write a for loo
+for i in range():
+    fir el in i:
+    i str(el)== el in range(10):
+    print(str(el+10)
